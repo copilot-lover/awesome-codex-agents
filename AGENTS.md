@@ -1,10 +1,12 @@
-# CLAUDE.md
+# AGENTS.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to Codex when working with code in this repository.
+To use these agents in another project, copy the `codex` folder to your repository root and merge this file with your existing `AGENTS.md`.
+
 
 ## Project Overview
 
-This is the Awesome Claude Agents repository - a collection of specialized AI agents that extend Claude Code's capabilities through intelligent orchestration and domain expertise. The agents work together as a development team, with each agent having specific expertise and delegation patterns.
+This is the Awesome Codex Agents repository - a collection of specialized AI agents that extend Codex's capabilities through intelligent orchestration and domain expertise. The agents work together as a development team, with each agent having specific expertise and delegation patterns.
 
 ## Working with Agents
 
@@ -14,9 +16,9 @@ When creating or modifying agents:
 3. Use XML-style examples in descriptions for intelligent invocation
 4. Agents return structured findings for main agent coordination
 
-## Orchestration Pattern for Claude Code
+## Orchestration Pattern for Codex
 
-Since sub-agents in Claude Code cannot directly invoke other sub-agents, orchestration follows this strict pattern:
+Since sub-agents in Codex cannot directly invoke other sub-agents, orchestration follows this strict pattern:
 
 ### CRITICAL: Agent Routing Protocol
 
@@ -32,7 +34,7 @@ Since sub-agents in Claude Code cannot directly invoke other sub-agents, orchest
 ```
 User: "Build a user management system"
 
-Main Claude Agent:
+Main Codex Agent:
 1. First, I'll use the tech-lead-orchestrator to analyze and get routing
    → Tech lead returns Agent Routing Map with SPECIFIC agents
    
@@ -82,7 +84,7 @@ The project follows a hierarchical structure:
 1. **Orchestrators** (`agents/orchestrators/`)
    - `tech-lead-orchestrator`: Coordinates complex projects through three-phase workflow (Research → Planning → Execution)
    - `project-analyst`: Detects technology stack and enables intelligent routing
-   - `team-configurator`: Creates agent routing rules in CLAUDE.md files
+   - `team-configurator`: Creates agent routing rules in AGENTS.md files
 
 2. **Core Agents** (`agents/core/`)
    - Cross-cutting concerns like code archaeology, reviews, performance, and documentation
@@ -98,7 +100,7 @@ The project follows a hierarchical structure:
 
 ### Three-Phase Orchestration Workflow (Main Agent Coordinated)
 
-The main Claude agent implements a human-in-the-loop workflow using the tech-lead-orchestrator:
+The main Codex agent implements a human-in-the-loop workflow using the tech-lead-orchestrator:
 
 1. **Research Phase**: Tech-lead analyzes requirements and returns structured findings
 2. **Approval Gate**: Main agent presents findings and waits for human approval

@@ -1,6 +1,6 @@
 # How Agent Coordination Works
 
-The main Claude agent coordinates specialized sub-agents through sequential delegation. Sub-agents work in isolation and return structured findings.
+The main Codex agent coordinates specialized sub-agents through sequential delegation. Sub-agents work in isolation and return structured findings.
 
 ## Coordination Reality
 
@@ -126,7 +126,7 @@ Task 2: API Implementation
 ## Why This Architecture?
 
 **Technical Limitations:**
-- Sub-agents cannot invoke other sub-agents in Claude Code
+- Sub-agents cannot invoke other sub-agents in Codex
 - Each invocation is isolated
 - No shared memory between specialists
 
