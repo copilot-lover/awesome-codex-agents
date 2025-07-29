@@ -2,7 +2,7 @@
 
 ## System Reality
 
-Sub-agents cannot invoke other sub-agents. Main Claude agent coordinates everything through sequential delegation.
+Sub-agents cannot invoke other sub-agents. Main Codex agent coordinates everything through sequential delegation.
 
 ## Agent Hierarchy
 
@@ -54,7 +54,7 @@ Main Agent:
 
 **No Direct Agent Communication**
 - Agent A cannot call Agent B
-- All coordination through main Claude agent
+- All coordination through main Codex agent
 - Agents return structured findings for parsing
 
 **Example Agent Return:**

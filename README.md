@@ -1,10 +1,10 @@
-# Awesome Claude Agents - AI Development Team 🚀
+# Awesome Codex Agents - AI Development Team 🚀
 
-**Supercharge Claude Code with a team of specialized AI agents** that work together to build complete features, debug complex issues, and handle any technology stack with expert-level knowledge.
+**Supercharge Codex with a team of specialized AI agents** that work together to build complete features, debug complex issues, and handle any technology stack with expert-level knowledge.
 
 ## 🎯 The Problem & Solution
 
-While Claude Code is powerful, complex projects need specialized expertise. Generic AI responses often miss best practices, leading to suboptimal code.
+While Codex is powerful, complex projects need specialized expertise. Generic AI responses often miss best practices, leading to suboptimal code.
 
 **Our solution:** A team of specialized AI agents that work together, each with deep expertise in their domain. Just like a real development team, but available 24/7.
 
@@ -14,7 +14,7 @@ While Claude Code is powerful, complex projects need specialized expertise. Gene
 You: "Build user management"
 
 Without Agent Team:
-Claude: *Generic authentication implementation*
+Codex: *Generic authentication implementation*
 
 With Agent Team:
 ├── Tech Lead: "I'll coordinate this complex feature for your project"
@@ -29,39 +29,43 @@ Result: Production-ready implementation tailored to your stack
 
 ## ⚠️ Important Notice
 
-**This project is experimental and token-intensive.** I'm actively testing these agents with Claude Max subscription ($200/month) - expect high token consumption during complex workflows. Use with caution and monitor your usage.
+**This project is experimental and token-intensive.** I'm actively testing these agents with a high-token Codex environment - expect high token consumption during complex workflows. Use with caution and monitor your usage.
 
 ## 🚀 Quick Start (2 Minutes)
 
 ### 1. Install the Agents
 ```bash
-git clone https://github.com/vijaythecoder/awesome-claude-agents.git
-cp -r awesome-claude-agents/agents ~/.claude/
+git clone https://github.com/vijaythecoder/awesome-codex-agents.git
+cp -r awesome-codex-agents/agents ~/.codex/
 ```
 
 ### 2. Configure for Your Project
 Navigate to your project directory and run:
 
 ```bash
-claude "Use team-configurator to set up my AI development team"
+codex "Use team-configurator to set up my AI development team"
 ```
 
 ### 3. Start Building
 ```bash
-claude "Build a complete user authentication system"
+codex "Build a complete user authentication system"
 ```
 
 Your AI team will automatically use the right specialists for your tech stack!
+
+## 🛠 Plug & Play with Codex
+Copy the `codex` folder into your project root and merge `AGENTS.md` with your existing configuration. Codex will load agents from `codex/agents` automatically.
+
 
 ## 🎯 How Auto-Configuration Works
 
 The team-configurator agent is your AI team setup expert. When invoked, it:
 
-1. **Checks Existing Setup** - Looks for CLAUDE.md and preserves your customizations
+1. **Checks Existing Setup** - Looks for AGENTS.md and preserves your customizations
 2. **Analyzes Your Stack** - Uses project-analyst to detect frameworks and patterns
-3. **Scans Available Agents** - Discovers all agents in ~/.claude/agents/
+3. **Scans Available Agents** - Discovers all agents in ~/.codex/agents/
 4. **Creates Smart Mappings** - Routes tasks to the perfect specialist
-5. **Updates CLAUDE.md** - Saves configuration without removing existing content
+5. **Updates AGENTS.md** - Saves configuration without removing existing content
 
 ### Three-Phase Orchestration
 
@@ -213,9 +217,9 @@ Result: Real-time dashboard with sub-second load times, export functionality,
 ## 💬 Join The Community
 
 - ⭐ **Star this repo** to show support
-- 🐛 [Report issues](https://github.com/vijaythecoder/awesome-claude-agents/issues)
-- 💡 [Share ideas](https://github.com/vijaythecoder/awesome-claude-agents/discussions)
-- 🎉 [Success stories](https://github.com/vijaythecoder/awesome-claude-agents/discussions/categories/show-and-tell)
+- 🐛 [Report issues](https://github.com/vijaythecoder/awesome-codex-agents/issues)
+- 💡 [Share ideas](https://github.com/vijaythecoder/awesome-codex-agents/discussions)
+- 🎉 [Success stories](https://github.com/vijaythecoder/awesome-codex-agents/discussions/categories/show-and-tell)
 
 ## 📄 License
 
@@ -223,16 +227,16 @@ MIT License - Use freely in your projects!
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=vijaythecoder/awesome-claude-agents&type=Date)](https://www.star-history.com/#vijaythecoder/awesome-claude-agents&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=vijaythecoder/awesome-codex-agents&type=Date)](https://www.star-history.com/#vijaythecoder/awesome-codex-agents&Date)
 ---
 
 <p align="center">
-  <strong>Transform Claude Code into an AI development team that ships production-ready features</strong><br>
+  <strong>Transform Codex into an AI development team that ships production-ready features</strong><br>
   <em>Simple setup. Powerful results. Just describe and build.</em>
 </p>
 
 <p align="center">
-  <a href="https://github.com/vijaythecoder/awesome-claude-agents">GitHub</a> •
+  <a href="https://github.com/vijaythecoder/awesome-codex-agents">GitHub</a> •
   <a href="docs/architecture.md">Documentation</a> •
-  <a href="https://github.com/vijaythecoder/awesome-claude-agents/discussions">Community</a>
+  <a href="https://github.com/vijaythecoder/awesome-codex-agents/discussions">Community</a>
 </p>

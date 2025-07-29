@@ -1,10 +1,10 @@
-# Contributing to Awesome Claude Agents
+# Contributing to Awesome Codex Agents
 
-Thank you for your interest in contributing to Awesome Claude Agents! This document provides guidelines and instructions for contributing to our collection of specialized Claude sub-agents.
+Thank you for your interest in contributing to Awesome Codex Agents! This document provides guidelines and instructions for contributing to our collection of specialized Codex sub-agents.
 
 ## 🎯 Our Mission
 
-We aim to build the most comprehensive, high-quality collection of Claude sub-agents that enhance productivity across various domains. Every contribution helps make Claude Code more powerful for the community.
+We aim to build the most comprehensive, high-quality collection of Codex sub-agents that enhance productivity across various domains. Every contribution helps make Codex Code more powerful for the community.
 
 ## 📋 Table of Contents
 
@@ -32,9 +32,9 @@ We are committed to providing a welcoming and inclusive environment. Please:
 
 ```bash
 # Fork the repository on GitHub, then:
-git clone https://github.com/YOUR_USERNAME/awesome-claude-agents.git
-cd awesome-claude-agents
-git remote add upstream https://github.com/ORIGINAL_OWNER/awesome-claude-agents.git
+git clone https://github.com/YOUR_USERNAME/awesome-codex-agents.git
+cd awesome-codex-agents
+git remote add upstream https://github.com/ORIGINAL_OWNER/awesome-codex-agents.git
 ```
 
 ### 2. Create a Branch
@@ -51,7 +51,7 @@ Follow our guidelines below for creating or improving agents.
 
 ### 4. Test Your Changes
 
-Ensure your agent works correctly with Claude Code before submitting.
+Ensure your agent works correctly with Codex Code before submitting.
 
 ### 5. Commit Your Changes
 
@@ -165,15 +165,15 @@ For each new agent, create:
 ### Before Reporting
 
 1. Check existing issues to avoid duplicates
-2. Test with the latest version of Claude Code
-3. Verify the issue is with the agent, not Claude Code itself
+2. Test with the latest version of Codex Code
+3. Verify the issue is with the agent, not Codex Code itself
 
 ### Issue Template
 
 ```markdown
 **Agent Name**: [agent-name]
 **Issue Type**: Bug / Enhancement / Feature Request
-**Claude Code Version**: [version]
+**Codex Code Version**: [version]
 
 **Description**:
 [Clear description of the issue]
@@ -213,7 +213,7 @@ For each new agent, create:
 - [ ] Documentation update
 
 ## Testing
-- [ ] Tested with Claude Code locally
+- [ ] Tested with Codex Code locally
 - [ ] Added/updated examples
 - [ ] Updated documentation
 
@@ -264,17 +264,17 @@ Closes #[issue-number]
 
 1. **Install your agent locally**:
    ```bash
-   cp agents/category/your-agent.md ~/.claude/agents/
+   cp agents/category/your-agent.md ~/.codex/agents/
    ```
 
 2. **Test auto-invocation**:
    ```bash
-   claude "Task that should trigger your agent"
+   codex "Task that should trigger your agent"
    ```
 
 3. **Test explicit invocation**:
    ```bash
-   claude "Use the your-agent to do something"
+   codex "Use the your-agent to do something"
    ```
 
 ### Test Scenarios
@@ -311,11 +311,11 @@ Contributors will be:
 
 ## 📞 Getting Help
 
-- **Discord**: [Join our community](https://discord.gg/awesome-claude-agents)
+- **Discord**: [Join our community](https://discord.gg/awesome-codex-agents)
 - **Discussions**: Use GitHub Discussions for questions
 - **Issues**: Report bugs via GitHub Issues
-- **Email**: maintainers@awesome-claude-agents.dev
+- **Email**: maintainers@awesome-codex-agents.dev
 
 ---
 
-Thank you for contributing to Awesome Claude Agents! Your expertise helps make Claude Code more powerful for everyone. 🚀
+Thank you for contributing to Awesome Codex Agents! Your expertise helps make Codex Code more powerful for everyone. 🚀

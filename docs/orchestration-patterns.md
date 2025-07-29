@@ -1,10 +1,10 @@
-# Orchestration Patterns - Claude Code Agent Coordination
+# Orchestration Patterns - Codex Agent Coordination
 
-This guide documents how to orchestrate multiple sub-agents in Claude Code, where sub-agents cannot directly invoke each other.
+This guide documents how to orchestrate multiple sub-agents in Codex, where sub-agents cannot directly invoke each other.
 
 ## 🎯 Core Orchestration Philosophy
 
-The main Claude agent coordinates complex tasks through three distinct phases, using the tech-lead-orchestrator for analysis:
+The main Codex agent coordinates complex tasks through three distinct phases, using the tech-lead-orchestrator for analysis:
 
 1. **Research Phase** - Tech-lead analyzes and returns structured findings
 2. **Planning Phase** - Main agent creates tasks based on recommendations
@@ -14,7 +14,7 @@ The main Claude agent coordinates complex tasks through three distinct phases, u
 
 ### Phase 1: Research & Analysis
 
-The main Claude agent uses the tech-lead-orchestrator to analyze requirements:
+The main Codex agent uses the tech-lead-orchestrator to analyze requirements:
 
 ```
 Main Agent: "I'll use the tech-lead-orchestrator to analyze this payment system request"
@@ -437,4 +437,4 @@ for task in tasks:
 
 ---
 
-By following these orchestration patterns, the main Claude agent can efficiently coordinate complex projects using specialized sub-agents, despite the limitation that sub-agents cannot invoke each other directly.
+By following these orchestration patterns, the main Codex agent can efficiently coordinate complex projects using specialized sub-agents, despite the limitation that sub-agents cannot invoke each other directly.

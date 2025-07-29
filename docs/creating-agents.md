@@ -1,6 +1,6 @@
-# Creating Claude Agents
+# Creating Codex Agents
 
-Learn how to create powerful, interconnected Claude sub-agents using advanced patterns.
+Learn how to create powerful, interconnected Codex sub-agents using advanced patterns.
 
 ## Quick Start
 
@@ -38,7 +38,7 @@ When I encounter [type of task], I delegate to [agent-name].
 
 ## The XML-Style Pattern (Advanced)
 
-Claude uses XML-style examples in descriptions for intelligent agent selection:
+Codex uses XML-style examples in descriptions for intelligent agent selection:
 
 ```yaml
 description: |
@@ -65,7 +65,7 @@ description: |
 
 ### Why This Works
 
-1. **Pattern Learning**: Claude learns from examples when to invoke agents
+1. **Pattern Learning**: Codex learns from examples when to invoke agents
 2. **Context Awareness**: Understands project stage and user intent
 3. **Smart Delegation**: Knows when to hand off to other specialists
 4. **Self-Documenting**: Examples serve as live documentation
@@ -105,7 +105,7 @@ Delegations:
 ### Understanding Tool Inheritance
 
 The `tools` field in the agent frontmatter is **optional**. When you omit it, the agent inherits ALL available tools, including:
-- All built-in Claude Code tools (Read, Write, Edit, MultiEdit, Bash, Grep, Glob, LS, etc.)
+- All built-in Codex tools (Read, Write, Edit, MultiEdit, Bash, Grep, Glob, LS, etc.)
 - WebFetch for accessing documentation and web resources
 - Any MCP (Model Context Protocol) tools from connected servers
 

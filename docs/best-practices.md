@@ -1,4 +1,4 @@
-# Best Practices for Claude Agents
+# Best Practices for Codex Agents
 
 Essential guidelines for creating effective, interconnected agents.
 
@@ -11,7 +11,7 @@ Each agent should master ONE domain.
 ❌ `full-stack-developer` - Too broad
 
 ### 2. XML-Style Examples
-Use Claude's pattern for smart invocation:
+Use Codex's pattern for smart invocation:
 
 ```yaml
 description: |

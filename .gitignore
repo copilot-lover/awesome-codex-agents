@@ -40,8 +40,8 @@ coverage.xml
 *.temp
 .tmp/
 
-# Claude specific
-.claude/
+# Codex specific
+.codex/
 !agents/
 
 # Node modules (if any JS tools are added)
